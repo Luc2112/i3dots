@@ -217,4 +217,7 @@ bindsym mod4+x exec shutdown now
 bindsym $mod+e exec google-chrome-stable
 bindsym $mod+w exec libreoffice -writer
 bindsym $mod+s exec sioyek
-
+#Window border
+default_border pixel
+default_floating_border pixel 1
+for_window [all] border pixel 1
